@@ -1,3 +1,4 @@
+import React from 'react'
 import Banner1 from "./components/banner1";
 import Banner2 from "./components/banner2";
 import Banner3 from "./components/banner3";
