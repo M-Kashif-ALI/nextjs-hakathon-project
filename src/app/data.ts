@@ -56,7 +56,7 @@ export const featured: typedOfFeatured[] = [
   },
 ];
 
-export const product: typedOfFeatured[] = [
+export const products: typedOfFeatured[] = [
   {
     id: 1,
     name: "Graphic Design",

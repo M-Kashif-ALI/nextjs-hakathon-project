@@ -7,7 +7,7 @@ import NavBarMobile from '../components/navBarMobile'
 import Image from 'next/image'
 import Footer from '../components/footer'
 
-const Page = () => {
+const Pricing = () => {
   return (
     <div>
       <nav className='px-5 my-3 flex items-center justify-around'>
@@ -177,4 +177,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Pricing

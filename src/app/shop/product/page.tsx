@@ -1,6 +1,6 @@
 import Footer from '@/app/components/footer'
 import ShopNavBar from '@/app/components/shopNavBar'
-import { product } from '@/app/data'
+import { products } from '@/app/data'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -9,7 +9,7 @@ import { FaEye } from 'react-icons/fa'
 import { IoIosArrowForward } from 'react-icons/io'
 import { IoCartOutline } from 'react-icons/io5'
 
-const Page = () => {
+const product = () => {
   return (
     <section>
       <ShopNavBar />
@@ -90,7 +90,7 @@ const Page = () => {
 
           <div className='h-[615px] flex flex-wrap items-center justify-center gap-[30px] mt-5'>
         {
-          product.map((d) => (
+          products.map((d) => (
             <div key={d.id}>
             <div>
           <Image src={d.img} alt={d.name} height={1000} width={1000} className='h-[427px] w-[239px]' />
@@ -123,4 +123,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default product

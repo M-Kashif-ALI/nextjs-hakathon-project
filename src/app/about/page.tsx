@@ -6,7 +6,7 @@ import { IoCartOutline } from 'react-icons/io5'
 import { CiSearch } from 'react-icons/ci'
 import NavBarMobile from '../components/navBarMobile'
 
-const Page = () => {
+const About = () => {
   return (
     <div>
 
@@ -172,4 +172,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default About

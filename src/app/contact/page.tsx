@@ -7,7 +7,7 @@ import NavBarMobile from '../components/navBarMobile'
 import Image from 'next/image'
 import Footer from '../components/footer'
 
-const Page = () => {
+const Contact = () => {
   return (
     <div>
       <nav className='px-5 my-3 flex items-center justify-around'>
@@ -98,7 +98,7 @@ const Page = () => {
           <p className="text-sm font-bold text-[#737373]">
             Lorem, ipsum dolor sit amet consectetur
           </p>
-          <h1 className="text-4xl md:text-[60px] font-bold">Let's talk</h1>
+          <h1 className="text-4xl md:text-[60px] font-bold">{"Let's talk"}</h1>
           <button className="bg-blue-400 text-white font-bold text-sm h-[52px] w-[186px] rounded-md shadow-md hover:bg-blue-500 transition">
             Try it for free Now
           </button>
@@ -113,4 +113,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Contact

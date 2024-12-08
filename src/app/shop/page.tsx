@@ -3,7 +3,7 @@ import ShopNavBar from '../components/shopNavBar'
 import { IoIosArrowForward } from 'react-icons/io'
 import ShopBanner from '../components/shopBanner'
 
-const Page = () => {
+const Shop = () => {
   return (
     <div>
       <ShopNavBar />
@@ -20,4 +20,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Shop
